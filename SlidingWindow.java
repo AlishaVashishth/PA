@@ -1,5 +1,6 @@
 import java.util.*;
-class Main {
+
+class SlidingWindow {
     public static int maxSum(int[] arr, int k){
         int windowSum=0;
         for(int i=0;i<k;i++){
@@ -17,6 +18,7 @@ class Main {
         }
         return maxSum;
     }
+
     public static void main(String[] args) {
         int[] arr = {2,1,5,1,3,2};
         System.out.println(maxSum(arr,3));
