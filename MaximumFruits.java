@@ -8,6 +8,7 @@ import java.util.*;
 
 class MaximumFruits{
     public static void main(String[] args){
+        int[] fruits = {1,2,3,2,2};
         HashMap<Integer, Integer> map = new HashMap<>();
 
         int left = 0;
@@ -32,6 +33,6 @@ class MaximumFruits{
             max = Math.max(max, right - left + 1);
         }
 
-        return max;
+        System.out.println(max);
     }
 }
