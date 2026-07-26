@@ -1,6 +1,3 @@
-import java.util.*;
-import java.lang.*;
-
 //2 try and catch
 
 class TryAndCatch{

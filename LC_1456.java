@@ -1,5 +1,3 @@
-import java.util.*;
-
 //sliding window ------- substrings
 
 class LC_1456 {

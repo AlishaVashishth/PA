@@ -1,5 +1,3 @@
-import java.util.*;
-
 class SlidingWindow {
     public static int maxSum(int[] arr, int k){
         int windowSum=0;

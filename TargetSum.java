@@ -1,5 +1,3 @@
-import java.util.*;
-
 // Two pointer approach
 
 class TargetSum{

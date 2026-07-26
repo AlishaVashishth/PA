@@ -4,8 +4,6 @@
 // Instead of counting all pages for every group from scratch, you count the first 3 books
 // Remove the first books pages and the next book's pages
 
-import java.util.*;
-
 class ConsecutiveBookPages{
     public static void main(String[] args){
         int[] arr = {800,100,250,700,220,50};
