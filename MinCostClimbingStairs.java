@@ -1,6 +1,7 @@
 import java.util.*;
 
 //using recursion
+// problem: solve() of one index is calculated multiple times --> optimized approach: DP
 public class MinCostClimbingStairs {
     public static int solve(int[] cost, int index){
         if(index>=cost.length) return 0;
