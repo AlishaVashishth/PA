@@ -1,3 +1,10 @@
+// Q1. Write a Java program to input two numbers and print:
+// Sum
+// Difference
+// Product
+// Quotient
+// Remainder
+
 import java.util.*;
 public class Calc {
     public static void calc(int a, int b){
