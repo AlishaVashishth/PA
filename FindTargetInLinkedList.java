@@ -1,0 +1,34 @@
+public class FindTargetInLinkedList {
+    static class Node{
+        int data;
+        Node next;
+
+        Node(int data){
+            this.data = data;
+            this.next=null;
+        }
+    }
+    public static boolean find(Node head,int target){
+        Node temp=head;
+        while(temp!=null){
+            if(temp.data==target){
+                return true;
+            }
+            temp=temp.next;
+        }
+        return false;
+    }
+    public static void main(String[] args){
+        Node head = new Node(10);
+        head.next = new Node(20);
+        head.next.next = new Node(30);
+        head.next.next.next = new Node(40);
+        int target=300;
+        if(find(head,target)){
+            System.out.println("Found");
+        }
+        else{
+            System.out.println("Not Found");
+        }
+    }
+}
