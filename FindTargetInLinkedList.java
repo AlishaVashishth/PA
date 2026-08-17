@@ -18,6 +18,8 @@ public class FindTargetInLinkedList {
         }
         return false;
     }
+
+    
     public static void main(String[] args){
         Node head = new Node(10);
         head.next = new Node(20);
