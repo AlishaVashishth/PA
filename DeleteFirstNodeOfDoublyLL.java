@@ -1,4 +1,4 @@
-public class InsertionInDoublyLinkedList {
+public class DeleteFirstNodeOfDoublyLL {
     static class Node{
         int data;
         Node prev;
@@ -13,12 +13,14 @@ public class InsertionInDoublyLinkedList {
 
 
 
-    public static Node InsertAtBeginning(Node head, int val){
-        Node new_node = new Node(val);
-        new_node.next = head;
-        if(head != null) head.prev = new_node;
-
-        head = new_node;
+    public static Node DeleteAtBeginning(Node head){
+        Node temp = head;
+        if(head.next!=null){
+            head=head.next;
+        }
+        head.prev=null;
+        temp.next=null;
+        
         return head;
     }
 
@@ -45,7 +47,7 @@ public class InsertionInDoublyLinkedList {
         third.next=fourth;
         fourth.prev=third;
 
-        InsertAtBeginning(head,1);
+        head = DeleteAtBeginning(head);
         printForward(head);
     }
 }
