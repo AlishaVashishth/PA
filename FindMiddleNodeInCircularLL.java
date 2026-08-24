@@ -26,7 +26,7 @@ public class FindMiddleNodeInCircularLL {
     public static int mid(Node head){
         Node slow = head;
         Node fast = head;
-        while(fast!=null && fast.next!=head){
+        while(fast.next!=head && fast.next.next!=head ){
             slow = slow.next;
             fast = fast.next.next;
         }
