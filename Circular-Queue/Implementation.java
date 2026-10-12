@@ -1,5 +1,7 @@
 class Implementation{
     static class CircularQueue{
+        // implementing using array
+        
         int[] arr;
         int front,rear,size,capacity;
         CircularQueue(int capacity){
