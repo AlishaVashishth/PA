@@ -1,6 +1,11 @@
 import java.util.*;
 
 // Standard queue (FIFO)
+// A campus service desk serves students in the order they join. Each student has a unique integer ticket number.
+// Process a sequence of operations and report the ticket number served by each SERVE operation. If the queue is
+// empty when SERVE is requested, print EMPTY. A CANCEL x operation removes ticket x if it is still waiting; if x is not
+// present, the queue remains unchanged. Cancellation must not change the relative order of the other waiting students.
+
 class ServiceDeskQueueWithCancellations{
     public static void main(String[] args){
 
