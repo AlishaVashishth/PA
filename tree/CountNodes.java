@@ -6,6 +6,7 @@ class CountNodes{
             this.data=data;
         }
     }
+    // recursively
     static int countNodes(Node root){
         if(root==null) return 0;
 
