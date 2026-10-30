@@ -13,7 +13,7 @@ Heap follows 2 conditions:
 
 
 # Difference (Min Heap vs Max Heap):
-Feature:    Max                      Min
+Feature    Max                      Min
 
 Root:       Maximum                  Minimum
 Parent:     greater than child       smaller than child
