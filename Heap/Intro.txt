@@ -1,0 +1,27 @@
+Heap follows 2 conditions:
+ 1. It must be a Complete Binary Tree
+ 2. It must follow the Heap property.
+
+
+# There are 2 types of Heaps:
+
+1. Max Heap: 
+        In max heap, the parent node is always greater than or equal to its child.
+
+2. Min Heap:
+        In min heap, the parent node is always smaller than or equal to its child.
+
+
+# Difference (Min Heap vs Max Heap):
+Feature:    Max                      Min
+
+Root:       Maximum                  Minimum
+Parent:     greater than child       smaller than child
+Used for:   largest element          smallest element
+Java:       Priotity Queue reversed  Priority Queue
+
+
+
+# How to represent Heap using Arrays:
+
+int[] heap = {50,30,40,10,20,35,25}
