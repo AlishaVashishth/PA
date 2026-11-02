@@ -1,0 +1,36 @@
+Graph is a non-linear data structure
+    - storing data in nodes (vertices) and connections (edges)
+
+    A-----B
+
+- vertex (node): A,B
+- edge: AB
+
+Types:
+=> Undirected graph: 
+    - connection in both directions
+    - A connected to B and B connected to A
+
+=> Directed Graph:
+    - direction is fixed
+    - A-->--B
+
+=> Weighted Graph:
+    - weights with edges
+    - two paths might have different cost
+
+=> Unweighted Graph:
+    - no weight with edges
+    - A to B and B to C, treated equally
+
+=> Cyclic Graph:
+    - last node rolls back to the front node
+
+=> Acyclic Graph:
+    - NO cycle
+
+=> Connected Graph
+
+=> Disconnected Graph
+
+
