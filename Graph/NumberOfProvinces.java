@@ -1,4 +1,3 @@
-
 // Leetcode 547
 
 class Solution {
