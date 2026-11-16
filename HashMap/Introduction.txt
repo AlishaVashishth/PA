@@ -1,0 +1,12 @@
+stores data in Key-Value pair
+
+can you assign another value to the same key?
+    - collision
+    - assigns the new value to that bucket
+
+HashMap<Key,Value> map = new HashMap<>();
+HashMap<Integer, Integer> map = new HashMap<>();
+
+put - to add an element
+
+map.put(101,"Alisha");
